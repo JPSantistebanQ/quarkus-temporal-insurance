@@ -1,8 +1,21 @@
 # temporal-insurance-parent
 
+Quarkus Temporal Insurance is a comprehensive solution for managing insurance policies, claims, and customer interactions using Temporal workflows. This project provides a robust framework for building scalable and maintainable insurance applications with a focus on reliability and performance.
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+
+# Overview
+
+The following workflow is orchestrated across multiple services:
+1. **Policy Management**: Handles the creation, modification, and deletion of insurance policies.
+2. **Claims Processing**: Manages the lifecycle of insurance claims, including submission, review, and resolution.
+3. **Customer Management**: Manages customer information, including contact details and policyholder information.
+4. **Notification Service**: Sends notifications to customers regarding policy updates, claim status, and other relevant information.
+5. **Payment Service**: Handles payment processing for policy premiums and claim payouts.
+
+If anything in this process fails, the workflow will retry the failed step up to 3 times before a "compensating transaction" is executed to revert the previous steps. This ensures that the system remains consistent and reliable, even in the face of failures.
 
 ## Running the application in dev mode
 
