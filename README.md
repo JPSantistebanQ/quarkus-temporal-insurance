@@ -8,6 +8,11 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
+| JaCoCo Test Coverage | [![coverage](https://raw.githubusercontent.com/JPSantistebanQ/quarkus-temporal-insurance/badges/jacoco.svg)](https://github.com/JPSantistebanQ/quarkus-temporal-insurance/actions/workflows/maven.yml) [![branches coverage](https://raw.githubusercontent.com/JPSantistebanQ/quarkus-temporal-insurance/badges/branches.svg)](https://github.com/JPSantistebanQ/quarkus-temporal-insurance/actions/workflows/maven.yml) |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Build Status         | -                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Security Scan        | -                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
 # Overview
 
 The following workflow is orchestrated across multiple services:
