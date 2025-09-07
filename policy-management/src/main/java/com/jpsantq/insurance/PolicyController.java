@@ -9,7 +9,7 @@ import jakarta.ws.rs.core.MediaType;
 
 @ApplicationScoped
 @Path("/policy")
-public class ExampleResource {
+public class PolicyController {
 
     @GET
     @Path("hello")

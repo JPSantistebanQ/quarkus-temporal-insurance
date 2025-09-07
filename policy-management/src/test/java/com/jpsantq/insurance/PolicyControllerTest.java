@@ -8,8 +8,8 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
-@TestHTTPEndpoint(ExampleResource.class)
-class ExampleResourceTest {
+@TestHTTPEndpoint(PolicyController.class)
+class PolicyControllerTest {
     @Test
     void testHelloEndpoint() {
         given()
