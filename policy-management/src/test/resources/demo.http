@@ -1,0 +1,10 @@
+### POST create a new policy
+
+POST {{client.host.url}}/policy
+Content-Type: application/json
+Accept: application/json
+
+{
+  "policyId": "123",
+  "policyName": "Name"
+}
