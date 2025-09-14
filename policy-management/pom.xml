@@ -55,6 +55,11 @@
             <artifactId>rest-assured</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.temporal</groupId>
+            <artifactId>quarkus-temporal</artifactId>
+            <version>0.1.2</version>
+        </dependency>
     </dependencies>
 
     <build>
