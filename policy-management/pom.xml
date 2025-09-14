@@ -60,6 +60,12 @@
             <artifactId>quarkus-temporal</artifactId>
             <version>0.1.2</version>
         </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.temporal</groupId>
+            <artifactId>quarkus-temporal-test</artifactId>
+            <version>0.1.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

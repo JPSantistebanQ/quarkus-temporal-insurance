@@ -1,0 +1,3 @@
+quarkus:
+  temporal:
+    enable-mock: true
